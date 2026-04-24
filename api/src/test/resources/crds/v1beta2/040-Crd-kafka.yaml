@@ -223,6 +223,14 @@ spec:
                               - Hostname
                             publishNotReadyAddresses:
                               type: boolean
+                            perBrokerAnnotationsTemplate:
+                              additionalProperties:
+                                type: string
+                              type: object
+                            perBrokerLabelsTemplate:
+                              additionalProperties:
+                                type: string
+                              type: object
                             hostTemplate:
                               type: string
                             advertisedHostTemplate:
@@ -5310,6 +5318,14 @@ spec:
                               - Hostname
                             publishNotReadyAddresses:
                               type: boolean
+                            perBrokerAnnotationsTemplate:
+                              additionalProperties:
+                                type: string
+                              type: object
+                            perBrokerLabelsTemplate:
+                              additionalProperties:
+                                type: string
+                              type: object
                             hostTemplate:
                               type: string
                             advertisedHostTemplate:
